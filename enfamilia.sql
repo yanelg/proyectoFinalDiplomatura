@@ -37,23 +37,6 @@ CREATE TABLE `novedades` (
 -- Volcado de datos para la tabla `novedades`
 --
 
-INSERT INTO `novedades` (`idNovedad`, `fecha`, `novedad`) VALUES
-(1, '2022-09-04', 'jfdasklfa'),
-(2, '2022-09-04', 'segunda novedad'),
-(3, '2022-09-04', 'sasasa'),
-(4, '2022-09-04', 'asasasasasa'),
-(5, '2022-09-04', 'aaa'),
-(6, '2022-09-04', 'aaa'),
-(7, '2022-09-04', 'ddddddd'),
-(8, '2022-09-07', 'aaaaaa'),
-(9, '2022-09-07', 'aaaaaa'),
-(10, '2022-09-13', 'prueba'),
-(11, '2022-09-05', 'hola ke ase'),
-(12, '2022-09-02', 'pruebita'),
-(13, '2022-09-07', 'asasdadas'),
-(14, '2022-09-06', 'sadasdas'),
-(15, '2022-09-05', 'se muere una gallina');
-
 -- --------------------------------------------------------
 
 --
