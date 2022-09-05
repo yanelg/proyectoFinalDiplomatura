@@ -1,0 +1,31 @@
+.bienvenidos {
+    width: 80%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.equipamiento {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    align-items: center; 
+}
+
+.footer {
+    background-color: rgb(239, 234, 227);
+    clear: both;
+    color: blueviolet;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 20px;   
+}
+
+.holder {
+    max-width: fit-content;
+    margin: 0 auto;
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}

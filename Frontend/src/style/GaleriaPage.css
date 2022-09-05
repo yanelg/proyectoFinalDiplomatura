@@ -1,0 +1,7 @@
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    align-items: center;
+    width: 20%; 
+}

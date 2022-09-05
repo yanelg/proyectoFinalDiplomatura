@@ -1,0 +1,40 @@
+/*
+font-family: 'Akshar', sans-serif; font-family: 'Ms Madi', cursive; font-family: 'Open Sans', sans-serif;
+*/
+
+    body{
+    font-family: 'Akshar', sans-serif;
+    font-size: 18px;
+    }
+
+header{
+    padding: 18px 0;
+}
+
+nav{
+    background: #475af6;
+    background: linear-gradient(90deg,#475af6 0%, #61ee87 80%);
+    background: -webkit-linear-gradient(90deg,#475af6 0%, #61ee87 80%);
+    background: -moz-linear-gradient(90deg,#475af6 0%, #61ee87 80%);
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0%;
+    display: block;
+    flex-grow: -1;
+}
+nav li{
+    display:inline-flex;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    display:inline-block;
+    text-align: center;
+}
+nav ul a:hover{
+    background-color: black(0,-0,0,-0,3);
+}
