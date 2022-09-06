@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 06-09-2022 a las 00:01:10
+-- Tiempo de generación: 06-09-2022 a las 01:59:49
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -19,9 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `enfamilia`
 --
-DROP DATABASE `enfamilia`;
-CREATE DATABASE `enfamilia` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `enfamilia`;
 
 -- --------------------------------------------------------
 
@@ -42,8 +39,8 @@ CREATE TABLE IF NOT EXISTS `novedades` (
 --
 
 INSERT INTO `novedades` (`idNovedad`, `fecha`, `novedad`) VALUES
-(1, '2022-09-05', 'Ingresa el Dr. Saracco'),
-(2, '2022-09-01', 'Nuevo equipo protésico');
+(1, '2022-09-05', 'Ingresa el Dr. Pérez'),
+(2, '2022-09-05', 'Ingresa la kinesióloga Gómez');
 
 -- --------------------------------------------------------
 
@@ -64,7 +61,7 @@ CREATE TABLE IF NOT EXISTS `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id_usuario`, `usuario`, `password`) VALUES
-(1, 'leo', '123');
+(1, 'flavia', '1234');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
